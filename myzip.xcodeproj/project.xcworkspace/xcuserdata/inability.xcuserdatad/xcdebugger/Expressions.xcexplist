@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "compress_lz_str:lz77.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "curbyte">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "decompress_lz_file:lz77.c">
+      </ContextState>
+      <ContextState
+         contextName = "decompress_lz_str:lz77.c">
+      </ContextState>
+      <ContextState
+         contextName = "print_code:lz77.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "((char*)&amp;code)[0]">
+            </PersistentString>
+            <PersistentString
+               value = "((uchar*)&amp;code) + (32-bits)/8">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "seek_phase:lz77.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "src[start_pos+i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "index_clear_node:lz77.c">
+      </ContextState>
+      <ContextState
+         contextName = "compress_lz_file:lz77.c">
+      </ContextState>
+      <ContextState
+         contextName = "index_insert:lz77.c">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

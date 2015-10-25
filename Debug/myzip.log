@@ -1,0 +1,270 @@
+﻿生成启动时间为 2014/5/12 20:46:47。
+项目“H:\myzip\myzip.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在对“Debug\myzip.unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt myzip\huffman.c myzip\lz77.c myzip\main.c
+  main.c
+myzip\main.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+myzip\main.c(8): fatal error C1083: 无法打开包括文件:“stdafx.h”: No such file or directory
+  lz77.c
+myzip\lz77.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+h:\myzip\myzip\lz77.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+h:\myzip\myzip\lz77.h(25): warning C4005: “min”: 宏重定义
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(855) : 参见“min”的前一个定义
+h:\myzip\myzip\lz77.h(26): warning C4005: “max”: 宏重定义
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(854) : 参见“max”的前一个定义
+myzip\lz77.c(15): error C2054: 在“inline”之后应输入“(”
+myzip\lz77.c(15): error C2082: 形参“reverse”的重定义
+myzip\lz77.c(15): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\lz77.c(41): error C2054: 在“inline”之后应输入“(”
+myzip\lz77.c(41): error C2082: 形参“move_forward”的重定义
+myzip\lz77.c(41): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\lz77.c(47): error C2054: 在“inline”之后应输入“(”
+myzip\lz77.c(47): error C2082: 形参“copy_bits_in_byte”的重定义
+myzip\lz77.c(47): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\lz77.c(129): error C2054: 在“inline”之后应输入“(”
+myzip\lz77.c(129): error C2082: 形参“right_rotate”的重定义
+myzip\lz77.c(129): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\lz77.c(136): error C2054: 在“inline”之后应输入“(”
+myzip\lz77.c(136): error C2082: 形参“left_rotate”的重定义
+myzip\lz77.c(136): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\lz77.c(153): error C2275: “uchar”: 将此类型用作表达式非法
+          h:\myzip\myzip\lz77.h(30) : 参见“uchar”的声明
+myzip\lz77.c(153): error C2146: 语法错误: 缺少“;”(在标识符“t”的前面)
+myzip\lz77.c(153): error C2065: “t”: 未声明的标识符
+myzip\lz77.c(154): error C2065: “t”: 未声明的标识符
+myzip\lz77.c(159): error C2065: “t”: 未声明的标识符
+myzip\lz77.c(187): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(188): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(189): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(189): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(189): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\lz77.c(189): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(189): error C2065: “p”: 未声明的标识符
+myzip\lz77.c(189): error C2059: 语法错误:“)”
+myzip\lz77.c(190): error C2065: “t”: 未声明的标识符
+myzip\lz77.c(190): error C2065: “p”: 未声明的标识符
+myzip\lz77.c(190): error C2223: “->key”的左侧必须指向结构/联合
+myzip\lz77.c(190): error C2065: “now”: 未声明的标识符
+myzip\lz77.c(190): warning C4133: “函数”: 从“int *”到“uchar *”的类型不兼容
+myzip\lz77.c(190): error C2198: “less”: 用于调用的参数太少
+myzip\lz77.c(191): error C2065: “now”: 未声明的标识符
+myzip\lz77.c(191): error C2065: “till_now”: 未声明的标识符
+myzip\lz77.c(192): error C2065: “till_now”: 未声明的标识符
+myzip\lz77.c(192): error C2065: “now”: 未声明的标识符
+myzip\lz77.c(193): error C2065: “now”: 未声明的标识符
+myzip\lz77.c(194): error C2065: “p”: 未声明的标识符
+myzip\lz77.c(194): error C2223: “->off”的左侧必须指向结构/联合
+myzip\lz77.c(196): error C2065: “t”: 未声明的标识符
+myzip\lz77.c(197): error C2065: “p”: 未声明的标识符
+myzip\lz77.c(197): error C2065: “p”: 未声明的标识符
+myzip\lz77.c(197): error C2223: “->left”的左侧必须指向结构/联合
+myzip\lz77.c(198): error C2065: “t”: 未声明的标识符
+myzip\lz77.c(199): error C2065: “p”: 未声明的标识符
+myzip\lz77.c(199): error C2065: “p”: 未声明的标识符
+myzip\lz77.c(199): error C2223: “->right”的左侧必须指向结构/联合
+myzip\lz77.c(200): error C2043: 非法 break
+myzip\lz77.c(202): error C2065: “till_now”: 未声明的标识符
+myzip\lz77.c(206): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(206): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(206): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\lz77.c(206): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(206): error C2065: “i”: 未声明的标识符
+myzip\lz77.c(206): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\lz77.c(206): error C2065: “i”: 未声明的标识符
+myzip\lz77.c(206): error C2059: 语法错误:“)”
+myzip\lz77.c(206): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\lz77.c(218): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(220): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(220): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(220): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\lz77.c(220): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(220): error C2065: “i”: 未声明的标识符
+myzip\lz77.c(220): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\lz77.c(220): error C2059: 语法错误:“)”
+myzip\lz77.c(221): error C2065: “i”: 未声明的标识符
+myzip\lz77.c(221): error C2065: “off”: 未声明的标识符
+myzip\lz77.c(221): error C2065: “len”: 未声明的标识符
+myzip\lz77.c(224): error C2065: “len”: 未声明的标识符
+myzip\lz77.c(225): error C2065: “off”: 未声明的标识符
+myzip\lz77.c(227): error C2065: “len”: 未声明的标识符
+myzip\lz77.c(228): error C2065: “i”: 未声明的标识符
+myzip\lz77.c(228): error C2065: “len”: 未声明的标识符
+myzip\lz77.c(234): error C2065: “i”: 未声明的标识符
+myzip\lz77.c(237): error C2065: “i”: 未声明的标识符
+myzip\lz77.c(248): error C2275: “FILE”: 将此类型用作表达式非法
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(66) : 参见“FILE”的声明
+myzip\lz77.c(248): error C2065: “in”: 未声明的标识符
+myzip\lz77.c(249): error C2275: “FILE”: 将此类型用作表达式非法
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(66) : 参见“FILE”的声明
+myzip\lz77.c(249): error C2065: “ou”: 未声明的标识符
+myzip\lz77.c(251): error C2065: “ou”: 未声明的标识符
+myzip\lz77.c(251): warning C4047: “=”:“int”与“FILE *”的间接级别不同
+myzip\lz77.c(253): error C2065: “ou”: 未声明的标识符
+myzip\lz77.c(253): warning C4047: “=”:“int”与“FILE *”的间接级别不同
+myzip\lz77.c(254): error C2065: “in”: 未声明的标识符
+myzip\lz77.c(254): error C2065: “ou”: 未声明的标识符
+myzip\lz77.c(259): error C2065: “in”: 未声明的标识符
+myzip\lz77.c(259): warning C4047: “函数”:“FILE *”与“int”的间接级别不同
+myzip\lz77.c(259): warning C4024: “fseek”: 形参和实参 1 的类型不同
+myzip\lz77.c(260): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(261): error C2065: “in”: 未声明的标识符
+myzip\lz77.c(261): warning C4047: “函数”:“FILE *”与“int”的间接级别不同
+myzip\lz77.c(261): warning C4024: “fseek”: 形参和实参 1 的类型不同
+myzip\lz77.c(263): error C2275: “uchar”: 将此类型用作表达式非法
+          h:\myzip\myzip\lz77.h(30) : 参见“uchar”的声明
+myzip\lz77.c(263): error C2065: “buff”: 未声明的标识符
+myzip\lz77.c(264): error C2275: “uchar”: 将此类型用作表达式非法
+          h:\myzip\myzip\lz77.h(30) : 参见“uchar”的声明
+myzip\lz77.c(264): error C2065: “des_buff”: 未声明的标识符
+myzip\lz77.c(266): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(266): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(266): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\lz77.c(266): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\lz77.c(266): error C2065: “last”: 未声明的标识符
+myzip\lz77.c(266): warning C4552: “>”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\lz77.c(266): error C2065: “last”: 未声明的标识符
+myzip\lz77.c(266): error C2059: 语法错误:“)”
+myzip\lz77.c(266): error C2065: “cur”: 未声明的标识符
+myzip\lz77.c(266): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\lz77.c(267): error C2065: “cur”: 未声明的标识符
+myzip\lz77.c(267): error C2065: “last”: 未声明的标识符
+myzip\lz77.c(267): fatal error C1003: 错误计数超过 100；正在停止编译
+  huffman.c
+myzip\huffman.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+h:\myzip\myzip\huffman.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+h:\myzip\myzip\lz77.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+h:\myzip\myzip\lz77.h(25): warning C4005: “min”: 宏重定义
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(855) : 参见“min”的前一个定义
+h:\myzip\myzip\lz77.h(26): warning C4005: “max”: 宏重定义
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(854) : 参见“max”的前一个定义
+myzip\huffman.c(22): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(22): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(22): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\huffman.c(22): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(22): error C2059: 语法错误:“)”
+myzip\huffman.c(22): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\huffman.c(23): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(23): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(24): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(24): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(29): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(29): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(29): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\huffman.c(29): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(29): warning C4552: “<=”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\huffman.c(29): error C2059: 语法错误:“)”
+myzip\huffman.c(29): error C2065: “mi”: 未声明的标识符
+myzip\huffman.c(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\huffman.c(30): error C2065: “mi”: 未声明的标识符
+myzip\huffman.c(31): error C2065: “mi”: 未声明的标识符
+myzip\huffman.c(32): error C2043: 非法 break
+myzip\huffman.c(33): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(33): error C2065: “mi”: 未声明的标识符
+myzip\huffman.c(33): error C2065: “mi”: 未声明的标识符
+myzip\huffman.c(33): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(34): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(34): error C2065: “mi”: 未声明的标识符
+myzip\huffman.c(34): error C2065: “mi”: 未声明的标识符
+myzip\huffman.c(34): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(40): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(45): error C2065: “re”: 未声明的标识符
+myzip\huffman.c(61): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(62): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(64): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(65): error C2065: “tmp”: 未声明的标识符
+myzip\huffman.c(73): error C2275: “FILE”: 将此类型用作表达式非法
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(66) : 参见“FILE”的声明
+myzip\huffman.c(73): error C2065: “in”: 未声明的标识符
+myzip\huffman.c(74): error C2275: “FILE”: 将此类型用作表达式非法
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(66) : 参见“FILE”的声明
+myzip\huffman.c(74): error C2065: “ou”: 未声明的标识符
+myzip\huffman.c(76): error C2065: “ou”: 未声明的标识符
+myzip\huffman.c(76): warning C4047: “=”:“int”与“FILE *”的间接级别不同
+myzip\huffman.c(78): error C2065: “ou”: 未声明的标识符
+myzip\huffman.c(78): warning C4047: “=”:“int”与“FILE *”的间接级别不同
+myzip\huffman.c(79): error C2065: “in”: 未声明的标识符
+myzip\huffman.c(79): error C2065: “ou”: 未声明的标识符
+myzip\huffman.c(84): error C2065: “in”: 未声明的标识符
+myzip\huffman.c(84): warning C4047: “函数”:“FILE *”与“int”的间接级别不同
+myzip\huffman.c(84): warning C4024: “fseek”: 形参和实参 1 的类型不同
+myzip\huffman.c(85): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(86): error C2065: “in”: 未声明的标识符
+myzip\huffman.c(86): warning C4047: “函数”:“FILE *”与“int”的间接级别不同
+myzip\huffman.c(86): warning C4024: “fseek”: 形参和实参 1 的类型不同
+myzip\huffman.c(89): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(89): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(89): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\huffman.c(89): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(89): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(89): error C2065: “input_file_length”: 未声明的标识符
+myzip\huffman.c(89): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\huffman.c(89): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(89): error C2059: 语法错误:“)”
+myzip\huffman.c(90): error C2146: 语法错误: 缺少“;”(在标识符“cnt_chars”的前面)
+myzip\huffman.c(90): error C2065: “in”: 未声明的标识符
+myzip\huffman.c(90): warning C4047: “函数”:“FILE *”与“int”的间接级别不同
+myzip\huffman.c(90): warning C4024: “fgetc”: 形参和实参 1 的类型不同
+myzip\huffman.c(97): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(97): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(97): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\huffman.c(97): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(97): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(97): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\huffman.c(97): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(97): error C2059: 语法错误:“)”
+myzip\huffman.c(97): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+myzip\huffman.c(98): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(99): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(101): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(102): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(102): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(102): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\huffman.c(102): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(102): warning C4552: “>”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\huffman.c(102): error C2059: 语法错误:“)”
+myzip\huffman.c(103): error C2065: “p”: 未声明的标识符
+myzip\huffman.c(104): error C2065: “q”: 未声明的标识符
+myzip\huffman.c(105): error C2065: “tot”: 未声明的标识符
+myzip\huffman.c(105): error C2065: “p”: 未声明的标识符
+myzip\huffman.c(106): error C2065: “tot”: 未声明的标识符
+myzip\huffman.c(106): error C2065: “q”: 未声明的标识符
+myzip\huffman.c(107): error C2065: “tot”: 未声明的标识符
+myzip\huffman.c(107): error C2065: “p”: 未声明的标识符
+myzip\huffman.c(107): error C2065: “q”: 未声明的标识符
+myzip\huffman.c(108): error C2065: “tot”: 未声明的标识符
+myzip\huffman.c(110): error C2065: “tot”: 未声明的标识符
+myzip\huffman.c(112): error C2275: “uchar”: 将此类型用作表达式非法
+          h:\myzip\myzip\lz77.h(30) : 参见“uchar”的声明
+myzip\huffman.c(112): error C2146: 语法错误: 缺少“;”(在标识符“tmp_uchar”的前面)
+myzip\huffman.c(112): error C2065: “tmp_uchar”: 未声明的标识符
+myzip\huffman.c(112): error C2109: 下标要求数组或指针类型
+myzip\huffman.c(113): error C2065: “tmp_uchar”: 未声明的标识符
+myzip\huffman.c(113): warning C4022: “memset”: 指针与实参 1 不匹配
+myzip\huffman.c(113): error C2065: “tmp_uchar”: 未声明的标识符
+myzip\huffman.c(114): error C2065: “tmp_uchar”: 未声明的标识符
+myzip\huffman.c(114): warning C4047: “函数”:“uchar *”与“int”的间接级别不同
+myzip\huffman.c(114): warning C4024: “build_huffman_code”: 形参和实参 3 的类型不同
+myzip\huffman.c(117): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(117): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(117): error C2143: 语法错误 : 缺少“)”(在“类型”的前面)
+myzip\huffman.c(117): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(117): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(117): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+myzip\huffman.c(117): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(117): error C2059: 语法错误:“)”
+myzip\huffman.c(118): error C2146: 语法错误: 缺少“;”(在标识符“fwrite”的前面)
+myzip\huffman.c(118): error C2065: “i”: 未声明的标识符
+myzip\huffman.c(118): error C2065: “ou”: 未声明的标识符
+myzip\huffman.c(118): warning C4047: “函数”:“FILE *”与“int”的间接级别不同
+myzip\huffman.c(118): warning C4024: “fwrite”: 形参和实参 4 的类型不同
+myzip\huffman.c(121): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(121): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
+myzip\huffman.c(121): fatal error C1003: 错误计数超过 100；正在停止编译
+  正在生成代码...
+已完成生成项目“H:\myzip\myzip.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.23
